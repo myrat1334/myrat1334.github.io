@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - slayd.tm</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .steps li {
+            margin-bottom: 10px;
+        }
+
+        .mail {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: #eaf4fb;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .language-switcher {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .language-switcher button {
+            padding: 8px 16px;
+            margin: 0 5px;
+            cursor: pointer;
+            border: 1px solid #3498db;
+            background-color: #fff;
+            color: #3498db;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+
+        .language-switcher button.active {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .content-section {
+            display: none;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="language-switcher">
+        <button onclick="showLanguage('tk')" id="btn-tk" class="active">Türkmençe</button>
+        <button onclick="showLanguage('ru')" id="btn-ru">Русский</button>
+        <button onclick="showLanguage('en')" id="btn-en">English</button>
+    </div>
+
+    <div class="container">
+        <!-- Turkmen Section -->
+        <div id="section-tk" class="content-section active">
+            <h1>slayd.tm — Hasaby öçürmek</h1>
+            <p>Bu sahypa <strong>slayd.tm</strong> ykjam goşundysyndaky hasabyňyzy we oňa degişli maglumatlary
+                öçürmegi nädip haýyş etmelidigini düşündirýär.</p>
+
+            <h2>Nädip haýyş etmeli</h2>
+            <ol class="steps">
+                <li>Şu salga e-poçta iberiň: <span class="mail"><a href="mailto:m.sahedow13@gmail.com?subject=slayd.tm%20-%20Hasaby%20%C3%B6%C3%A7%C3%BCrmek">m.sahedow13@gmail.com</a></span></li>
+                <li>Hatyň temasyna <strong>«slayd.tm — Hasaby öçürmek»</strong> diýip ýazyň.</li>
+                <li>Hatda goşunda girýän <strong>telefon belgiňizi</strong> görkeziň (mysal: +993 6X XXXXXX).</li>
+                <li>Biz haýyşyň size degişlidigini tassyklamak üçin şol belgä ýa-da e-poçta arkaly jogap bereris.</li>
+                <li>Tassyklanandan soň hasabyňyz we maglumatlaryňyz <strong>30 günüň içinde</strong> öçürilýär we
+                    size habar berilýär.</li>
+            </ol>
+
+            <h2>Öçürilýän maglumatlar</h2>
+            <ul>
+                <li>Hasabyňyz we telefon belgiňiz (giriş maglumatlary).</li>
+                <li>Saklanan prezentasiýalaryňyzyň sanawy.</li>
+                <li>Satyn alnan prezentasiýalaryňyzyň sanawy we balansyňyz.</li>
+            </ul>
+
+            <h2>Saklanýan maglumatlar</h2>
+            <ul>
+                <li>Töleg we satyn alyş ýazgylary (mukdar, sene) hasabat we galplyga garşy göreş maksady bilen
+                    <strong>1 ýyla çenli</strong> saklanyp bilner, soň öçürilýär.</li>
+                <li>Mahabat üçin Google AdMob ýygnan maglumatlary Google öz syýasatyna laýyklykda saklaýar; olary
+                    enjamyňyzyň sazlamalarynda reklama ID-sini täzeläp dolandyryp bilersiňiz.</li>
+            </ul>
+
+            <h2>Bilmeli zatlar</h2>
+            <p>Hasap öçürilenden soň balansdaky galyndy we satyn alnan prezentasiýalara elýeterlilik dikeldilmeýär.
+                Enjamyňyza eýýäm ýüklenen faýllar enjamyňyzda galýar.</p>
+        </div>
+
+        <!-- Russian Section -->
+        <div id="section-ru" class="content-section">
+            <h1>slayd.tm — Удаление аккаунта</h1>
+            <p>На этой странице объясняется, как запросить удаление вашего аккаунта и связанных с ним данных в
+                мобильном приложении <strong>slayd.tm</strong>.</p>
+
+            <h2>Как отправить запрос</h2>
+            <ol class="steps">
+                <li>Отправьте письмо на адрес: <span class="mail"><a href="mailto:m.sahedow13@gmail.com?subject=slayd.tm%20-%20%D0%A3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D0%B0">m.sahedow13@gmail.com</a></span></li>
+                <li>В теме письма укажите <strong>«slayd.tm — Удаление аккаунта»</strong>.</li>
+                <li>В письме укажите <strong>номер телефона</strong>, с которым вы входите в приложение (например:
+                    +993 6X XXXXXX).</li>
+                <li>Мы свяжемся с вами по этому номеру или по электронной почте, чтобы подтвердить, что запрос
+                    отправили именно вы.</li>
+                <li>После подтверждения аккаунт и данные удаляются <strong>в течение 30 дней</strong>, и мы сообщим
+                    вам об этом.</li>
+            </ol>
+
+            <h2>Какие данные удаляются</h2>
+            <ul>
+                <li>Ваш аккаунт и номер телефона (данные для входа).</li>
+                <li>Список сохранённых презентаций.</li>
+                <li>Список купленных презентаций и баланс.</li>
+            </ul>
+
+            <h2>Какие данные сохраняются</h2>
+            <ul>
+                <li>Записи об оплатах и покупках (сумма, дата) могут храниться <strong>до 1 года</strong> для
+                    отчётности и защиты от мошенничества, после чего удаляются.</li>
+                <li>Данные, собранные Google AdMob для показа рекламы, хранятся Google в соответствии с его
+                    политикой; вы можете управлять ими, сбросив рекламный идентификатор в настройках устройства.</li>
+            </ul>
+
+            <h2>Важно знать</h2>
+            <p>После удаления аккаунта остаток баланса и доступ к купленным презентациям не восстанавливаются.
+                Файлы, уже загруженные на ваше устройство, остаются на нём.</p>
+        </div>
+
+        <!-- English Section -->
+        <div id="section-en" class="content-section">
+            <h1>slayd.tm — Delete Account</h1>
+            <p>This page explains how to request deletion of your account and associated data in the
+                <strong>slayd.tm</strong> mobile app.</p>
+
+            <h2>How to request deletion</h2>
+            <ol class="steps">
+                <li>Send an email to: <span class="mail"><a href="mailto:m.sahedow13@gmail.com?subject=slayd.tm%20-%20Delete%20account">m.sahedow13@gmail.com</a></span></li>
+                <li>Use the subject <strong>"slayd.tm — Delete account"</strong>.</li>
+                <li>Include the <strong>phone number</strong> you use to sign in to the app (e.g. +993 6X XXXXXX).</li>
+                <li>We will contact you via that number or email to confirm the request is yours.</li>
+                <li>Once confirmed, your account and data are deleted <strong>within 30 days</strong>, and we will
+                    notify you.</li>
+            </ol>
+
+            <h2>Data that is deleted</h2>
+            <ul>
+                <li>Your account and phone number (sign-in data).</li>
+                <li>Your list of saved presentations.</li>
+                <li>Your list of purchased presentations and your balance.</li>
+            </ul>
+
+            <h2>Data that is kept</h2>
+            <ul>
+                <li>Payment and purchase records (amount, date) may be kept for <strong>up to 1 year</strong> for
+                    accounting and fraud prevention, then deleted.</li>
+                <li>Data collected by Google AdMob to serve ads is retained by Google under its own policy; you can
+                    manage it by resetting the advertising ID in your device settings.</li>
+            </ul>
+
+            <h2>Please note</h2>
+            <p>After deletion, any remaining balance and access to purchased presentations cannot be restored. Files
+                already downloaded to your device remain on it.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 slayd.tm. Ähli hukuklar goralan.
+    </footer>
+
+    <script>
+        function showLanguage(lang) {
+            document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.language-switcher button').forEach(b => b.classList.remove('active'));
+            document.getElementById('section-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+
+</body>
+
+</html>
